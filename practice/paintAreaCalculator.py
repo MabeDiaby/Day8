@@ -10,7 +10,7 @@
 #Write your code below this line 👇
 import math
 def paint_calc(height, width, cover):
-    calc = (math.ceil(int(height * width / cover))
+    calc = (math.ceil(int(height * width) / cover))
     print(f"You'll need {calc} cans of paint.")
 
 #Write your code above this line 👆
